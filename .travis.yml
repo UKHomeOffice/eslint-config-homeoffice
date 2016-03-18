@@ -2,3 +2,11 @@ language: node_js
 node_js:
   - '4'
   - 'node'
+deploy:
+  provider: npm
+  email: tim.gent@digital.homeoffice.gov.uk
+  api_key:
+    secure: WVu8cdFdKTN8EfmJfkiyEPqxPmrRYzMkAHzquUiaBaT0P7rUYf3zIBHw69lKFPQFjY70/0xkQ/WCaIqmUFKp24FM6pBtcNnGCUGzL8VRpL3cXsfub9O34l9ZYCNjL29729qjn0r6cWcticnSKSiDu5bokpDdHjVA1IUjujkOJWWdmXLIDaE47YDxNcpwCGq4Xjv0Knz7MQLSWrjgwkqUbgLDIQi164GBo3BslmPzEo5vptGgQY3tQP0KwtzcN1RAFIZ6tDGVtO0qNeq2iMvvtc76jSQRbZBNpTYgOzPoiU/7HnYE49vzL+NYovBnQfGJA2lHxfSkh9YYPQwHArt/su7CGN+V1glgk7ZJoZbcowrHdjyFhZhIQeRNSGuyn+DCOfQsEdq81FL2rYMh5rShTFbOj1EbFKMFLdz24IjKLsTzyeGcTgmAM1SHBhjuhGhSPWz/+4vNrK+pvHxxnC9h/hF2cRX8Z2iXgo6RGt7Hx0PpOLll8VlhoudgWBfS9GbrjS6y78/iBpJXFn1+6n5qk6pAIReB2CYIVvMgQNUBmeYgplYRTZ1HI6QSE1QXuRQfyLvfYect2bF3wb9CUpd8S2tusDgF770vxhJnX7GPMDQUMTOvaGo/LrvTc11BLZIIBCMFa2H1CrxNqsExRi3vOysy38sVSc65vzHE9+OjAwk=
+  on:
+    tags: true
+    repo: UKHomeOffice/eslint-config-homeoffice
