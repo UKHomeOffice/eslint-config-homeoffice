@@ -1,4 +1,4 @@
-# Introduction
+# eslint-config-homeoffice [![Build Status](https://travis-ci.org/UKHomeOffice/eslint-config-homeoffice.svg?branch=master)](https://travis-ci.org/UKHomeOffice/eslint-config-homeoffice)
 
 This is the `eslint` configuration used on a variety of UKHomeOffice projects, including:
 
