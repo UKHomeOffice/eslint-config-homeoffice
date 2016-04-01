@@ -1,7 +1,6 @@
 language: node_js
 node_js:
   - '4'
-  - 'node'
 deploy:
   provider: npm
   email: noels@silex-consulting.com
