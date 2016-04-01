@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-homeoffice",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Eslint settings for Home Office projects",
   "main": "index.js",
   "keywords": [
