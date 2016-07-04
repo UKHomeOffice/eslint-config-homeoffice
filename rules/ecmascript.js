@@ -3,6 +3,6 @@
 module.exports = {
   rules: {
     'no-var': 0,
-    'generator-star': 2
+    'generator-star-spacing': 2
   }
 };
