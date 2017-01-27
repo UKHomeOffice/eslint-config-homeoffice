@@ -5,6 +5,7 @@ module.exports = {
     'comma-dangle': 0,
     'no-cond-assign': 2,
     'no-console': 2,
+    'no-const-assign': 2,
     'no-constant-condition': 2,
     'no-control-regex': 2,
     'no-debugger': 2,
