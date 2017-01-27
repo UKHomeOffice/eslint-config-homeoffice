@@ -17,6 +17,7 @@ module.exports = {
         node: true
     },
     plugins: [
+        'implicit-dependencies',
         'filenames',
         'one-variable-per-var',
         'mocha'
