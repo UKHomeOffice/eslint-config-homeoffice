@@ -36,7 +36,7 @@ module.exports = {
     'sort-vars': 0,
     'space-before-function-paren': [2, 'never'],
     'space-before-blocks': [2, 'always'],
-    'object-curly-spacing': [2, 'never'],
+    'object-curly-spacing': 0,
     'array-bracket-spacing': [2, 'never'],
     'space-in-parens': [2, 'never'],
     'space-infix-ops': 2,
