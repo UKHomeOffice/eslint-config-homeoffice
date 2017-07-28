@@ -14,7 +14,8 @@ module.exports = {
         'homeoffice/rules/plugins'
     ],
     env: {
-        node: true
+        node: true,
+        es6: true
     },
     plugins: [
         'implicit-dependencies',
